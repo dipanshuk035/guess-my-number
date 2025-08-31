@@ -33,9 +33,9 @@ document.querySelector(".check").addEventListener("click", function () {
     }
     document.querySelector(".score").textContent = Score;
   }
-  // document.querySelector('.guess').addEventListener('doubleclick', function () {
-  //   document.querySelector('.guess').value = '';
-  // });
+  document.querySelector(".guess").addEventListener("doubleclick", function () {
+    document.querySelector(".guess").value = "";
+  });
 });
 document.querySelector(".again").addEventListener("click", function () {
   Score = 20;
